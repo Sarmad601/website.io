@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d8cdcd;
+}
+
+header {
+    background-color: #a85927;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .auth-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.sub-navigation {
+    background-color: #a85927;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-navigation button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.sub-navigation button:hover {
+    background-color: #e63e18;
+}
+
+.sub-navigation input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero .play-btn {
+    background-color: #ff0000;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    margin: 20px;
+}
+
+.recipe-videos, .latest-recipes, aside {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.recipe-videos h3, .latest-recipes h3 {
+    background-color: #a85927;
+    color: white;
+    padding: 10px;
+}
+
+.video-grid, .recipe-grid {
+    display: grid;
+    gap: 10px;
+}
+
+.video-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.recipe-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.video-item, .recipe-item {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.video-item img, .recipe-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.video-item .play-btn, .recipe-item .play-btn {
+    background-color: #a85927;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+aside .welcome, .subscribe, .popular-recipes {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+aside h3 {
+    background-color: #a85927;
+    color: white;
+    padding: 10px;
+    margin: 0 -10px 10px -10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
